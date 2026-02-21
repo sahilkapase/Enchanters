@@ -1,0 +1,50 @@
+[
+  {
+    "name_en": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "name_hi": "प्रधानमंत्री फसल बीमा योजना",
+    "plan_type": "pmfby",
+    "description_en": "India's flagship crop insurance scheme providing comprehensive risk cover against crop loss due to natural calamities, pests & diseases. Covers all food and oilseed crops, annual commercial/horticultural crops for which past yield data is available. Premium: Kharif 2%, Rabi 1.5%, Commercial 5% of sum insured.",
+    "description_hi": "भारत की प्रमुख फसल बीमा योजना जो प्राकृतिक आपदाओं, कीटों और रोगों के कारण फसल हानि के खिलाफ व्यापक जोखिम कवर प्रदान करती है।",
+    "coverage": "Covers: Prevented sowing, Standing crop losses, Post-harvest losses (up to 14 days), Localized calamities (hailstorm, landslide, inundation), Add-on: Wild animal attack",
+    "premium_info": "Kharif: 2% of sum insured. Rabi: 1.5% of sum insured. Commercial/Horticultural: 5% of sum insured. Balance premium shared by Central and State Government (50:50).",
+    "eligibility": "All farmers growing notified crops in notified areas. Both loanee and non-loanee farmers. Sharecroppers and tenant farmers eligible with relevant documents.",
+    "how_to_enroll": "1. Through any bank branch (loanee farmers auto-enrolled). 2. Through CSC centers. 3. Online at pmfby.gov.in. 4. Through insurance company or agent. Enrollment must be within cut-off dates.",
+    "is_active": true
+  },
+  {
+    "name_en": "Restructured Weather Based Crop Insurance Scheme (RWBCIS)",
+    "name_hi": "पुनर्गठित मौसम आधारित फसल बीमा योजना",
+    "plan_type": "rwbci",
+    "description_en": "Weather index-based insurance that uses weather parameters (rainfall, temperature, humidity, wind speed) as proxy for crop yield. Claims triggered automatically when weather parameters deviate from thresholds.",
+    "description_hi": "मौसम सूचकांक आधारित बीमा जो फसल उपज के लिए प्रॉक्सी के रूप में मौसम मापदंडों का उपयोग करता है।",
+    "coverage": "Covers adverse weather conditions including: Deficit rainfall, Excess rainfall, Unseasonal rainfall, High temperature, Low temperature, High humidity, High wind speed, Hailstorm, Frost",
+    "premium_info": "Kharif: 2% of sum insured. Rabi: 1.5% of sum insured. Commercial/Horticultural: 5% of sum insured. Government pays the difference between actuarial premium and farmer premium.",
+    "eligibility": "All farmers growing notified crops in notified areas where RWBCIS is implemented. Both loanee and non-loanee farmers eligible.",
+    "how_to_enroll": "Similar to PMFBY - through banks, CSC, online portal, or insurance company agents.",
+    "is_active": true
+  },
+  {
+    "name_en": "Coconut Palm Insurance Scheme (CPIS)",
+    "name_hi": "नारियल पाम बीमा योजना",
+    "plan_type": "other",
+    "description_en": "Insurance cover for coconut palms against natural calamities. Covers damage to palms aged 4 years and above from cyclone, flood, drought, pest & disease attacks.",
+    "description_hi": "प्राकृतिक आपदाओं के खिलाफ नारियल पाम के लिए बीमा कवर।",
+    "coverage": "Damage/destruction of coconut palms due to: Natural calamities (cyclone, typhoon, flood, inundation, drought), Pest attacks, Disease attacks. Sum insured: Rs. 900 per palm (healthy bearing), Rs. 600 per palm (not bearing but 4+ years old).",
+    "premium_info": "Rs. 9 per palm per year for healthy bearing palms. Rs. 6 per palm per year for non-bearing palms. 50% subsidy from Coconut Development Board.",
+    "eligibility": "Coconut farmers in all states/UTs. Palms must be 4 years or older. Minimum 5 palms for insurance.",
+    "how_to_enroll": "Apply through Coconut Development Board office, state agriculture department, or participating insurance companies.",
+    "is_active": true
+  },
+  {
+    "name_en": "Unified Package Insurance Scheme (UPIS) - Pilot",
+    "name_hi": "एकीकृत पैकेज बीमा योजना",
+    "plan_type": "other",
+    "description_en": "Comprehensive package covering crop insurance, personal accident, dwelling & contents, agricultural pump sets, and student safety for farmer families. One premium for multiple covers.",
+    "description_hi": "किसान परिवारों के लिए फसल बीमा, व्यक्तिगत दुर्घटना, आवास, कृषि पंप सेट और छात्र सुरक्षा को कवर करने वाला व्यापक पैकेज।",
+    "coverage": "1. Crop insurance (PMFBY-linked). 2. Personal accident: Rs. 2 lakh. 3. Dwelling insurance: Rs. 25,000-2 lakh. 4. Agricultural pump set: up to Rs. 50,000. 5. Student safety: Rs. 1 lakh.",
+    "premium_info": "Varies by components chosen. Approx Rs. 1,000-5,000 per year for comprehensive cover. Government subsidizes 50% of total premium.",
+    "eligibility": "Farmers in pilot districts. All land-holding farmers with valid bank account. Family members included for personal accident and student safety components.",
+    "how_to_enroll": "Apply through designated insurance companies in pilot districts. Available through banks and CSCs in select areas.",
+    "is_active": true
+  }
+]

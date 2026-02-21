@@ -1,0 +1,103 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kisaanseva-app
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    command: >
+      sh -c "
+        alembic upgrade head &&
+        python -m seed_data.seed &&
+        uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+      "
+    networks:
+      - kisaanseva
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: kisaanseva-postgres
+    environment:
+      POSTGRES_USER: kisaanseva
+      POSTGRES_PASSWORD: kisaanseva
+      POSTGRES_DB: kisaanseva
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kisaanseva"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - kisaanseva
+
+  redis:
+    image: redis:7-alpine
+    container_name: kisaanseva-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - kisaanseva
+
+  celery-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kisaanseva-celery
+    env_file:
+      - .env
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    command: celery -A app.tasks.celery_app worker --loglevel=info --concurrency=2
+    volumes:
+      - .:/app
+    networks:
+      - kisaanseva
+
+  celery-beat:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kisaanseva-celery-beat
+    env_file:
+      - .env
+    depends_on:
+      redis:
+        condition: service_healthy
+    command: celery -A app.tasks.celery_app beat --loglevel=info
+    volumes:
+      - .:/app
+    networks:
+      - kisaanseva
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  kisaanseva:
+    driver: bridge

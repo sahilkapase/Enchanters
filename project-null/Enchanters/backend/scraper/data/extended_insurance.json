@@ -1,0 +1,86 @@
+[
+  {
+    "name_en": "Pradhan Mantri Suraksha Bima Yojana (PMSBY) – Crop Accident Cover",
+    "name_hi": "प्रधानमंत्री सुरक्षा बीमा योजना – फसल दुर्घटना कवर",
+    "plan_type": "other",
+    "description_en": "Central government accident insurance specifically for farmers. Annual premium of Rs. 20 provides Rs. 2 lakh cover for accidental death or permanent total disability, and Rs. 1 lakh for permanent partial disability. Auto-renewed yearly via bank account debit.",
+    "description_hi": "किसानों के लिए केंद्र सरकार का दुर्घटना बीमा। 20 रुपये प्रीमियम पर दुर्घटना मृत्यु या स्थायी अपंगता पर 2 लाख रुपये।",
+    "coverage": "Accidental death: Rs. 2 lakh. Total permanent disability (loss of both eyes, both hands/feet, or one eye and one hand/foot): Rs. 2 lakh. Partial permanent disability (loss of one eye or one hand/foot): Rs. 1 lakh.",
+    "premium_info": "Rs. 20 per year. Auto-debited from bank account on June 1. Government of India bears remaining risk cost through Public Sector Insurance Companies.",
+    "eligibility": "Bank account holders aged 18-70 years. Farmer family members also eligible. No medical test required. Only one policy per bank account.",
+    "how_to_enroll": "Give auto-debit mandate at bank branch, Jeevan Suraksha channel partner, or through net banking/mobile banking. Toll free: 1800-180-1111.",
+    "is_active": true
+  },
+  {
+    "name_en": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+    "name_hi": "प्रधानमंत्री जीवन ज्योति बीमा योजना",
+    "plan_type": "other",
+    "description_en": "One-year life cover renewable annually for all causes of death. Annual premium of Rs. 436 provides Rs. 2 lakh cover. Specifically marketed for unorganized sector workers and farmer families who lack formal life insurance.",
+    "description_hi": "सभी कारणों से मृत्यु के लिए सालाना नवीकरणीय जीवन बीमा। 436 रुपये प्रीमियम पर 2 लाख रुपये का कवर।",
+    "coverage": "Rs. 2 lakh life cover for death due to any reason (natural/accidental). No maturity or surrender value. Joint coverage not available; each member needs separate policy.",
+    "premium_info": "Rs. 436 per year. Auto-debited from savings bank account. LIC and private life insurers provide the coverage. Government may co-contribute for BPL families in certain states.",
+    "eligibility": "Bank account holders aged 18-50 years (coverage up to 55 years). Aadhaar-linked bank account preferred. Not available for existing life insurance policyholders of equivalent coverage.",
+    "how_to_enroll": "Submit enrollment form at bank branch or through e-banking/banking app. Choose auto-debit option. LIC policyholder service centre for claims.",
+    "is_active": true
+  },
+  {
+    "name_en": "Aam Aadmi Bima Yojana (AABY) for Agricultural Labourers",
+    "name_hi": "आम आदमी बीमा योजना – कृषि श्रमिकों के लिए",
+    "plan_type": "other",
+    "description_en": "Life and accident insurance for landless agricultural labourers aged 18-59 years. Death benefit Rs. 30,000 (natural) or Rs. 75,000 (accidental) or Rs. 75,000 (partial disability). Scholarship for children studying in std 9-12.",
+    "description_hi": "18-59 वर्ष के भूमिहीन कृषि श्रमिकों के लिए जीवन और दुर्घटना बीमा। प्राकृतिक मृत्यु पर 30,000 रुपये, दुर्घटना मृत्यु पर 75,000 रुपये।",
+    "coverage": "Natural death: Rs. 30,000. Accidental death/permanent total disability: Rs. 75,000. Partial permanent disability: Rs. 37,500. Add-on: Rs. 100/month scholarship for up to 2 children in std 9-12.",
+    "premium_info": "Rs. 200 per year per member. 50% (Rs. 100) borne by Central Government through Social Security Fund. Remaining 50% by state government. No premium from beneficiary.",
+    "eligibility": "Landless agricultural labourers aged 18-59 years. BPL or slightly above BPL. Not covered under ESIC or EPFO. Member of any approved group (state nodal agency).",
+    "how_to_enroll": "Apply through state nodal agency (Revenue Department or Labour Department). Submit proof of being a landless agricultural labourer. State government registers and pays premium.",
+    "is_active": true
+  },
+  {
+    "name_en": "National Agricultural Insurance Scheme (NAIS) – Legacy",
+    "name_hi": "राष्ट्रीय कृषि बीमा योजना (NAIS) – पुरानी",
+    "plan_type": "other",
+    "description_en": "Legacy scheme replaced by PMFBY/RWBCIS in 2016. Still operational in some states for specific crops. Area-based yield index insurance with premium subsidy for small and marginal farmers. Claims based on Crop Cutting Experiments (CCE) data.",
+    "description_hi": "2016 में PMFBY/RWBCIS द्वारा प्रतिस्थापित पुरानी योजना। कुछ राज्यों में अभी भी चालू। क्षेत्र-आधारित उपज सूचकांक बीमा।",
+    "coverage": "Yield shortfall below threshold yield (based on Crop Cutting Experiments). Covers: Drought, Dry spells, Flood, Inundation, Pests and diseases, Landslides, Natural fires, Lightning.",
+    "premium_info": "Kharif: 3.5% of sum insured or actuarial rate (whichever is less). Rabi: 1.5%. 50% additional premium subsidy for small/marginal farmers. Government pays actuarial/claims excess.",
+    "eligibility": "All farmers growing notified crops in notified areas of states still operating NAIS. Both loanee (compulsory) and non-loanee (voluntary) farmers.",
+    "how_to_enroll": "Through bank branch for loanee farmers. Non-loanee farmers apply through banks, Agriculture Department, or CSC centres in NAIS-implementing states.",
+    "is_active": false
+  },
+  {
+    "name_en": "Crop Insurance for Horticulture / Floriculture (Individual Farm Level)",
+    "name_hi": "बागवानी / फूल खेती के लिए फसल बीमा",
+    "plan_type": "other",
+    "description_en": "Individual farm-level insurance for horticulture crops (fruits, vegetables, spices, flowers) under PMFBY extended coverage. Covers prevented sowing, standing crop, post-harvest losses. Higher sum insured for high-value horticulture. Premium: 5% of sum insured.",
+    "description_hi": "PMFBY के विस्तारित कवरेज के तहत बागवानी फसलों के लिए व्यक्तिगत फार्म स्तरीय बीमा। उच्च मूल्य बागवानी के लिए अधिक बीमा राशि।",
+    "coverage": "Prevented sowing due to adverse weather. Standing crop losses from all perils. Post-harvest losses (up to 14 days). Hailstorm, landslide, inundation at individual farm level. AAY (crop failure) extension available.",
+    "premium_info": "5% of sum insured for commercial/horticultural crops. Government pays the difference between actuarial and farmer premium. Sum insured based on cost of cultivation.",
+    "eligibility": "Farmers growing notified horticulture crops in notified areas. Both loanee and non-loanee. Must enroll before cut-off date each season.",
+    "how_to_enroll": "Apply through bank, CSC, insurance company or pmfby.gov.in. Submit land records showing horticulture crop. Enrollment cut-off varies by state and crop.",
+    "is_active": true
+  },
+  {
+    "name_en": "Kisan Jyoti Cattle Insurance Scheme",
+    "name_hi": "किसान ज्योति पशु बीमा योजना",
+    "plan_type": "other",
+    "description_en": "Livestock insurance for milch animals (cows, buffaloes), draught animals, and poultry under National Livestock Mission and various state schemes. Coverage for death due to disease, accident, including natural calamities. 50% premium subsidy for BPL farmers.",
+    "description_hi": "दुधारू पशुओं (गाय, भैंस), बैल और मुर्गी के लिए पशुधन बीमा। बीपीएल किसानों के लिए 50% प्रीमियम सब्सिडी।",
+    "coverage": "Death due to accident, disease, natural calamities. Sum insured: market value or current value of animal. Milch cow/buffalo: Rs. 50,000-80,000. Bullock/ox: Rs. 30,000-50,000. Poultry: per unit basis.",
+    "premium_info": "3-4% of sum insured annually. 50% premium subsidy for BPL farmers; 25% subsidy for APL. Net premium as low as Rs. 750-1,500 per animal after subsidy.",
+    "eligibility": "All livestock-owning farmers. Animals must be tagged/identified with ear tag or micro-chip. Health certificate required for milch animals. BPL families get higher subsidy.",
+    "how_to_enroll": "Apply through District Animal Husbandry Officer or participating insurance companies (New India Assurance, Oriental Insurance, Agriculture Insurance Company). Tag animal and get health certificate first.",
+    "is_active": true
+  },
+  {
+    "name_en": "Rubber Plantation Insurance Scheme",
+    "name_hi": "रबर बागान बीमा योजना",
+    "plan_type": "other",
+    "description_en": "Insurance cover for rubber plantations against damage from natural calamities including storms, cyclone, flood, drought, heavy rain, fire, and lightning. Available through Rubber Board in Kerala and other rubber-producing states.",
+    "description_hi": "तूफान, चक्रवात, बाढ़, सूखा, भारी बारिश, आग और बिजली से नुकसान के खिलाफ रबर बागानों के लिए बीमा कवर।",
+    "coverage": "Loss/damage to rubber plants due to: Cyclone/storm/gale; Flood/inundation; Drought (more than 60% mortality); Lightning/Fire; Heavy wind damage. Cover from 4th year onwards. Sum insured at Rs. 6,000-12,000 per acre depending on age.",
+    "premium_info": "Rs. 90-120 per acre per year. 50% subsidy from Rubber Board. Net premium Rs. 45-60 per acre. Subsidy directly adjusted at application stage.",
+    "eligibility": "Rubber growers registered with Rubber Board. Plantation age: 4 years and above. Plot in name of applicant. Available in Kerala, Karnataka, Tamil Nadu, North-East states.",
+    "how_to_enroll": "Apply at nearest Rubber Board office with plantation registration number, land documents, and bank passbook. Survey by Board officer before insurance.",
+    "is_active": true
+  }
+]

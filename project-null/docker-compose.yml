@@ -1,0 +1,55 @@
+services:
+  # ── Frontend (Farmer App + Service Portal) ──
+  frontend:
+    build: .
+    ports:
+      - "3000:80"    # Farmer App
+      - "3001:81"    # Service Portal
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  # ── Backend (FastAPI) ──
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://kisaanseva:${DB_PASSWORD}@db:5432/kisaanseva
+      - REDIS_URL=redis://redis:6379/0
+      - JWT_SECRET=${JWT_SECRET}
+      - OTP_PROVIDER=${OTP_PROVIDER:-console}
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    restart: unless-stopped
+
+  # ── PostgreSQL ──
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: kisaanseva
+      POSTGRES_USER: kisaanseva
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kisaanseva"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  # ── Redis ──
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+volumes:
+  pgdata:

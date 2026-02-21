@@ -1,0 +1,586 @@
+[
+  {
+    "name_en": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+    "name_hi": "प्रधानमंत्री किसान सम्मान निधि",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Income support of Rs. 6,000 per year in three equal installments to all land-holding farmer families. Identifiable farmer family means a family comprising of husband, wife and minor children who own cultivable land as per land records of the concerned State/UT.",
+    "description_hi": "सभी भूमिधारक किसान परिवारों को तीन समान किस्तों में प्रति वर्ष 6,000 रुपये की आय सहायता।",
+    "benefit_type": "cash",
+    "benefit_amount": "Rs. 6,000 per year (Rs. 2,000 per installment)",
+    "apply_url": "https://pmkisan.gov.in/",
+    "documents_required": ["aadhaar", "land_proof", "bank_passbook"],
+    "how_to_apply": "Register online at pmkisan.gov.in or visit nearest CSC center. Verification done through state/UT governments.",
+    "is_active": true,
+    "source_url": "https://pmkisan.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.01", "is_mandatory": true},
+      {"rule_type": "ownership", "rule_value": "owned", "is_mandatory": false}
+    ],
+    "deadlines": [
+      {"season": "kharif", "year": 2026, "open_date": "2026-04-01", "close_date": "2026-07-31"},
+      {"season": "rabi", "year": 2026, "open_date": "2026-12-01", "close_date": "2027-03-31"}
+    ]
+  },
+  {
+    "name_en": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "name_hi": "प्रधानमंत्री फसल बीमा योजना",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Comprehensive crop insurance scheme providing financial support to farmers suffering crop loss/damage due to unforeseen events. Premium rates: 2% for Kharif, 1.5% for Rabi, and 5% for commercial/horticultural crops.",
+    "description_hi": "अप्रत्याशित घटनाओं के कारण फसल हानि/क्षति से पीड़ित किसानों को वित्तीय सहायता प्रदान करने वाली व्यापक फसल बीमा योजना।",
+    "benefit_type": "insurance",
+    "benefit_amount": "Full insured sum based on crop and area",
+    "apply_url": "https://pmfby.gov.in/",
+    "documents_required": ["aadhaar", "land_proof", "bank_passbook"],
+    "how_to_apply": "Apply through any bank branch, CSC center, or directly through PMFBY portal. Enrollment must be done within cut-off dates for the season.",
+    "is_active": true,
+    "source_url": "https://pmfby.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.01", "is_mandatory": true},
+      {"rule_type": "season", "rule_value": "kharif", "is_mandatory": false},
+      {"rule_type": "season", "rule_value": "rabi", "is_mandatory": false}
+    ],
+    "deadlines": [
+      {"season": "kharif", "year": 2026, "open_date": "2026-04-01", "close_date": "2026-07-31"},
+      {"season": "rabi", "year": 2026, "open_date": "2026-10-01", "close_date": "2026-12-31"}
+    ]
+  },
+  {
+    "name_en": "PM-KUSUM (Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan)",
+    "name_hi": "प्रधानमंत्री किसान ऊर्जा सुरक्षा एवं उत्थान महाभियान",
+    "ministry": "Ministry of New and Renewable Energy",
+    "description_en": "Promotes installation of solar pumps and grid-connected solar power plants. Component A: 10,000 MW solar capacity on barren land. Component B: 20 lakh standalone solar pumps. Component C: Solarisation of 15 lakh grid-connected pumps.",
+    "description_hi": "सौर पंपों और ग्रिड-कनेक्टेड सौर विद्युत संयंत्रों की स्थापना को बढ़ावा देता है।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "60% subsidy on solar pump (30% Central + 30% State)",
+    "apply_url": "https://pmkusum.mnre.gov.in/",
+    "documents_required": ["aadhaar", "land_proof", "bank_passbook"],
+    "how_to_apply": "Apply through state nodal agency or DISCOM. Selection based on first-come-first-served.",
+    "is_active": true,
+    "source_url": "https://mnre.gov.in/solar/schemes/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.5", "is_mandatory": true},
+      {"rule_type": "ownership", "rule_value": "owned", "is_mandatory": true}
+    ],
+    "deadlines": [
+      {"season": "kharif", "year": 2026, "open_date": "2026-01-01", "close_date": "2026-12-31"}
+    ]
+  },
+  {
+    "name_en": "Soil Health Card Scheme",
+    "name_hi": "मृदा स्वास्थ्य कार्ड योजना",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Provides soil health cards to farmers every 2 years, carrying crop-wise recommendations for nutrients and fertilizers. Helps farmers improve productivity through judicious use of inputs.",
+    "description_hi": "किसानों को हर 2 साल में मृदा स्वास्थ्य कार्ड प्रदान करता है, जिसमें फसलवार पोषक तत्वों और उर्वरकों की सिफारिशें होती हैं।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "Free soil testing and card",
+    "apply_url": "https://soilhealth.dac.gov.in/",
+    "documents_required": ["aadhaar", "land_proof"],
+    "how_to_apply": "Contact nearest soil testing laboratory or Krishi Vigyan Kendra (KVK). Soil samples collected from farms.",
+    "is_active": true,
+    "source_url": "https://soilhealth.dac.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.01", "is_mandatory": true}
+    ],
+    "deadlines": []
+  },
+  {
+    "name_en": "National Mission on Sustainable Agriculture (NMSA)",
+    "name_hi": "राष्ट्रीय सतत कृषि मिशन",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Enhances agricultural productivity through sustainable practices including rainfed area development, water use efficiency, soil health management, and climate change adaptation.",
+    "description_hi": "वर्षा आधारित क्षेत्र विकास, जल उपयोग दक्षता, मृदा स्वास्थ्य प्रबंधन और जलवायु परिवर्तन अनुकूलन सहित टिकाऊ प्रथाओं के माध्यम से कृषि उत्पादकता बढ़ाता है।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "Up to Rs. 50,000 for various components",
+    "apply_url": "https://nmsa.dac.gov.in/",
+    "documents_required": ["aadhaar", "land_proof", "bank_passbook"],
+    "how_to_apply": "Apply through District Agriculture Officer or state agriculture department portal.",
+    "is_active": true,
+    "source_url": "https://nmsa.dac.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.5", "is_mandatory": true},
+      {"rule_type": "irrigation", "rule_value": "rainfed", "is_mandatory": false}
+    ],
+    "deadlines": [
+      {"season": "kharif", "year": 2026, "open_date": "2026-03-01", "close_date": "2026-09-30"}
+    ]
+  },
+  {
+    "name_en": "Paramparagat Krishi Vikas Yojana (PKVY)",
+    "name_hi": "परम्परागत कृषि विकास योजना",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Promotes organic farming through adoption of organic village by cluster approach and PGS certification. Financial assistance of Rs. 50,000 per hectare for 3 years for organic inputs, seeds, etc.",
+    "description_hi": "क्लस्टर दृष्टिकोण और PGS प्रमाणन द्वारा जैविक गांव को अपनाने के माध्यम से जैविक खेती को बढ़ावा देता है।",
+    "benefit_type": "cash",
+    "benefit_amount": "Rs. 50,000 per hectare over 3 years",
+    "apply_url": "https://pgsindia-ncof.gov.in/",
+    "documents_required": ["aadhaar", "land_proof", "bank_passbook"],
+    "how_to_apply": "Form clusters of 50+ farmers with 50 acres. Apply through state agriculture department.",
+    "is_active": true,
+    "source_url": "https://pgsindia-ncof.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "1", "is_mandatory": true},
+      {"rule_type": "ownership", "rule_value": "owned", "is_mandatory": false}
+    ],
+    "deadlines": [
+      {"season": "kharif", "year": 2026, "open_date": "2026-02-01", "close_date": "2026-06-30"}
+    ]
+  },
+  {
+    "name_en": "Micro Irrigation Fund (MIF)",
+    "name_hi": "सूक्ष्म सिंचाई कोष",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Facilitates states in mobilizing resources for expansion of micro irrigation (drip and sprinkler) coverage. Provides additional funding for PMKSY-PDMC with dedicated corpus of Rs. 5,000 crore with NABARD.",
+    "description_hi": "सूक्ष्म सिंचाई (ड्रिप और स्प्रिंकलर) कवरेज के विस्तार के लिए राज्यों को संसाधन जुटाने में सुविधा प्रदान करता है।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "55% subsidy for small/marginal, 45% for others",
+    "apply_url": "https://pmksy.gov.in/microirrigation/",
+    "documents_required": ["aadhaar", "land_proof", "bank_passbook"],
+    "how_to_apply": "Apply through state horticulture/agriculture department. Subsidy directly credited to farmer's account.",
+    "is_active": true,
+    "source_url": "https://pmksy.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.5", "is_mandatory": true},
+      {"rule_type": "irrigation", "rule_value": "drip", "is_mandatory": false},
+      {"rule_type": "irrigation", "rule_value": "sprinkler", "is_mandatory": false}
+    ],
+    "deadlines": [
+      {"season": "kharif", "year": 2026, "open_date": "2026-01-01", "close_date": "2026-12-31"}
+    ]
+  },
+  {
+    "name_en": "Agriculture Infrastructure Fund (AIF)",
+    "name_hi": "कृषि अवसंरचना कोष",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Rs. 1 lakh crore financing facility for creation of post-harvest management infrastructure and community farming assets. Provides 3% interest subvention and credit guarantee through CGTMSE.",
+    "description_hi": "फसल कटाई के बाद प्रबंधन अवसंरचना और सामुदायिक कृषि संपत्तियों के निर्माण के लिए 1 लाख करोड़ रुपये की वित्तपोषण सुविधा।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "3% interest subvention on loans up to Rs. 2 crore",
+    "apply_url": "https://agriinfra.dac.gov.in/",
+    "documents_required": ["aadhaar", "land_proof", "bank_passbook"],
+    "how_to_apply": "Apply online at agriinfra.dac.gov.in. Project proposals submitted to Primary Agricultural Credit Societies (PACS), Marketing Cooperative Societies, FPOs, etc.",
+    "is_active": true,
+    "source_url": "https://agriinfra.dac.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "1", "is_mandatory": true}
+    ],
+    "deadlines": [
+      {"season": "kharif", "year": 2026, "open_date": "2026-01-01", "close_date": "2026-12-31"}
+    ]
+  },
+  {
+    "name_en": "Kisan Credit Card (KCC)",
+    "name_hi": "किसान क्रेडिट कार्ड",
+    "ministry": "Ministry of Finance / Department of Financial Services",
+    "description_en": "Provides adequate and timely credit to farmers for agriculture and allied activities. Covers crop production, post-harvest, farm maintenance, consumption needs, and investment credit for agriculture and allied activities.",
+    "description_hi": "कृषि और संबद्ध गतिविधियों के लिए किसानों को पर्याप्त और समय पर ऋण प्रदान करता है।",
+    "benefit_type": "cash",
+    "benefit_amount": "Credit limit based on land holding. Interest subvention of 2% + 3% prompt repayment",
+    "apply_url": "https://www.pmkisan.gov.in/",
+    "documents_required": ["aadhaar", "land_proof", "bank_passbook", "photo"],
+    "how_to_apply": "Apply at any bank branch (commercial, cooperative, or RRB). PM-KISAN beneficiaries get simplified one-page application.",
+    "is_active": true,
+    "source_url": "https://www.nabard.org/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.01", "is_mandatory": true}
+    ],
+    "deadlines": []
+  },
+  {
+    "name_en": "Rashtriya Krishi Vikas Yojana - RAFTAAR",
+    "name_hi": "राष्ट्रीय कृषि विकास योजना - रफ्तार",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Incentivizes states to increase public investment in agriculture. Promotes agri-entrepreneurship and agri-business through creation of agri-infrastructure, value chain support, and risk mitigation.",
+    "description_hi": "कृषि में सार्वजनिक निवेश बढ़ाने के लिए राज्यों को प्रोत्साहित करता है।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "Project-based (up to Rs. 25 lakh for individual projects)",
+    "apply_url": "https://rkvy.nic.in/",
+    "documents_required": ["aadhaar", "land_proof", "bank_passbook"],
+    "how_to_apply": "Apply through State Level Sanctioning Committee (SLSC) via state agriculture department.",
+    "is_active": true,
+    "source_url": "https://rkvy.nic.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "1", "is_mandatory": true}
+    ],
+    "deadlines": [
+      {"season": "kharif", "year": 2026, "open_date": "2026-01-01", "close_date": "2026-09-30"}
+    ]
+  },
+  {
+    "name_en": "National Food Security Mission (NFSM)",
+    "name_hi": "राष्ट्रीय खाद्य सुरक्षा मिशन",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Increases production of rice, wheat, pulses, coarse cereals, and commercial crops through area expansion and productivity enhancement. Covers 28 states and 2 UTs.",
+    "description_hi": "क्षेत्र विस्तार और उत्पादकता वृद्धि के माध्यम से चावल, गेहूं, दालों, मोटे अनाज और वाणिज्यिक फसलों का उत्पादन बढ़ाता है।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "50% subsidy on seeds, 50% on INM/IPM, Rs. 10,000-15,000 for farm machinery",
+    "apply_url": "https://nfsm.gov.in/",
+    "documents_required": ["aadhaar", "land_proof"],
+    "how_to_apply": "Apply through Block Agriculture Officer. Preference to SC/ST and small/marginal farmers.",
+    "is_active": true,
+    "source_url": "https://nfsm.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "crop", "rule_value": "wheat", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "rice", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "chickpea", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "lentil", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "maize", "is_mandatory": false},
+      {"rule_type": "land_min", "rule_value": "0.5", "is_mandatory": true}
+    ],
+    "deadlines": [
+      {"season": "rabi", "year": 2026, "open_date": "2026-09-01", "close_date": "2026-11-30"},
+      {"season": "kharif", "year": 2026, "open_date": "2026-04-01", "close_date": "2026-07-31"}
+    ]
+  },
+  {
+    "name_en": "Sub-Mission on Agricultural Mechanization (SMAM)",
+    "name_hi": "कृषि मशीनीकरण पर उप-मिशन",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Increases reach of farm mechanization to small and marginal farmers. Subsidies for purchase of tractors, implements, and establishment of Custom Hiring Centres (CHC) and Farm Machinery Banks.",
+    "description_hi": "छोटे और सीमांत किसानों तक कृषि मशीनीकरण की पहुंच बढ़ाता है।",
+    "benefit_type": "equipment",
+    "benefit_amount": "40-50% subsidy on machinery for small/marginal farmers",
+    "apply_url": "https://agrimachinery.nic.in/",
+    "documents_required": ["aadhaar", "land_proof", "bank_passbook"],
+    "how_to_apply": "Apply at agrimachinery.nic.in or visit District Agriculture Officer. Selection through DBT.",
+    "is_active": true,
+    "source_url": "https://agrimachinery.nic.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.5", "is_mandatory": true},
+      {"rule_type": "land_max", "rule_value": "5", "is_mandatory": false}
+    ],
+    "deadlines": [
+      {"season": "kharif", "year": 2026, "open_date": "2026-01-01", "close_date": "2026-12-31"}
+    ]
+  },
+  {
+    "name_en": "Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)",
+    "name_hi": "प्रधानमंत्री कृषि सिंचाई योजना",
+    "ministry": "Ministry of Agriculture & Farmers Welfare / Ministry of Jal Shakti",
+    "description_en": "Ensures access to some means of protective irrigation to all agricultural farms (Har Khet Ko Paani) and improving water use efficiency (More Crop Per Drop). Covers watershed development, AIBP, and micro irrigation.",
+    "description_hi": "सभी कृषि खेतों को सुरक्षात्मक सिंचाई के किसी साधन तक पहुंच सुनिश्चित करता है।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "55% subsidy for micro irrigation (small farmers), 45% for others",
+    "apply_url": "https://pmksy.gov.in/",
+    "documents_required": ["aadhaar", "land_proof", "bank_passbook"],
+    "how_to_apply": "Apply through state agriculture/horticulture department or at pmksy.gov.in.",
+    "is_active": true,
+    "source_url": "https://pmksy.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.5", "is_mandatory": true},
+      {"rule_type": "ownership", "rule_value": "owned", "is_mandatory": false}
+    ],
+    "deadlines": [
+      {"season": "kharif", "year": 2026, "open_date": "2026-01-01", "close_date": "2026-12-31"}
+    ]
+  },
+  {
+    "name_en": "e-NAM (National Agriculture Market)",
+    "name_hi": "राष्ट्रीय कृषि बाजार",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Pan-India electronic trading portal linking existing APMC mandis to create a unified national market for agricultural commodities. Enables farmers to sell at best price transparently.",
+    "description_hi": "मौजूदा APMC मंडियों को जोड़कर कृषि वस्तुओं के लिए एकीकृत राष्ट्रीय बाजार बनाने वाला अखिल भारतीय इलेक्ट्रॉनिक ट्रेडिंग पोर्टल।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "Free registration, better market access",
+    "apply_url": "https://enam.gov.in/",
+    "documents_required": ["aadhaar", "bank_passbook"],
+    "how_to_apply": "Register at enam.gov.in or through local APMC mandi. Need Aadhaar and bank account.",
+    "is_active": true,
+    "source_url": "https://enam.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.01", "is_mandatory": true}
+    ],
+    "deadlines": []
+  },
+  {
+    "name_en": "National Horticulture Mission (NHM)",
+    "name_hi": "राष्ट्रीय बागवानी मिशन",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Holistic growth of horticulture sector through area-based regionally differentiated strategies. Covers fruits, vegetables, flowers, spices, medicinal plants, and mushrooms.",
+    "description_hi": "क्षेत्र-आधारित क्षेत्रीय रूप से विभेदित रणनीतियों के माध्यम से बागवानी क्षेत्र का समग्र विकास।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "40-75% subsidy depending on activity",
+    "apply_url": "https://nhm.nic.in/",
+    "documents_required": ["aadhaar", "land_proof", "bank_passbook"],
+    "how_to_apply": "Apply through District Horticulture Officer or state horticulture department.",
+    "is_active": true,
+    "source_url": "https://nhm.nic.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.5", "is_mandatory": true},
+      {"rule_type": "crop", "rule_value": "mango", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "banana", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "apple", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "potato", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "onion", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "tomato", "is_mandatory": false}
+    ],
+    "deadlines": [
+      {"season": "kharif", "year": 2026, "open_date": "2026-03-01", "close_date": "2026-08-31"}
+    ]
+  },
+  {
+    "name_en": "National Bamboo Mission",
+    "name_hi": "राष्ट्रीय बांस मिशन",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Promotes holistic growth of bamboo sector including plantation, cultivation, product development, and marketing. Targets 4 lakh hectares for bamboo plantation.",
+    "description_hi": "वृक्षारोपण, खेती, उत्पाद विकास और विपणन सहित बांस क्षेत्र के समग्र विकास को बढ़ावा देता है।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "50% subsidy on plantation cost (up to Rs. 120/plant)",
+    "apply_url": "https://nbm.nic.in/",
+    "documents_required": ["aadhaar", "land_proof"],
+    "how_to_apply": "Apply through District Agriculture Officer or state bamboo mission.",
+    "is_active": true,
+    "source_url": "https://nbm.nic.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "1", "is_mandatory": true}
+    ],
+    "deadlines": [
+      {"season": "kharif", "year": 2026, "open_date": "2026-04-01", "close_date": "2026-09-30"}
+    ]
+  },
+  {
+    "name_en": "Interest Subvention Scheme for Agriculture",
+    "name_hi": "कृषि के लिए ब्याज सब्सिडी योजना",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Provides short term crop loans up to Rs. 3 lakh at 7% per annum. Additional 3% subvention for prompt repayment, making effective rate 4%. Available through banks and KCC.",
+    "description_hi": "3 लाख रुपये तक के अल्पकालिक फसल ऋण 7% प्रति वर्ष पर प्रदान करता है। समय पर पुनर्भुगतान के लिए अतिरिक्त 3% छूट।",
+    "benefit_type": "cash",
+    "benefit_amount": "3% interest subvention (effective rate 4% p.a.)",
+    "apply_url": "https://www.rbi.org.in/",
+    "documents_required": ["aadhaar", "land_proof", "bank_passbook"],
+    "how_to_apply": "Available through all commercial banks, cooperative banks, and RRBs. Apply with KCC or new loan application.",
+    "is_active": true,
+    "source_url": "https://www.nabard.org/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.01", "is_mandatory": true}
+    ],
+    "deadlines": []
+  },
+  {
+    "name_en": "Per Drop More Crop (PDMC) - Micro Irrigation",
+    "name_hi": "प्रति बूंद अधिक फसल",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Component of PMKSY focused on water use efficiency through micro irrigation (drip and sprinkler). Subsidies for installation of micro irrigation systems on farmer fields.",
+    "description_hi": "सूक्ष्म सिंचाई (ड्रिप और स्प्रिंकलर) के माध्यम से जल उपयोग दक्षता पर केंद्रित PMKSY का घटक।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "55% for small/marginal, 45% for other farmers",
+    "apply_url": "https://pmksy.gov.in/microirrigation/",
+    "documents_required": ["aadhaar", "land_proof", "bank_passbook"],
+    "how_to_apply": "Apply through state agriculture/horticulture department.",
+    "is_active": true,
+    "source_url": "https://pmksy.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.5", "is_mandatory": true},
+      {"rule_type": "land_max", "rule_value": "12.5", "is_mandatory": false}
+    ],
+    "deadlines": [
+      {"season": "kharif", "year": 2026, "open_date": "2026-01-01", "close_date": "2026-12-31"}
+    ]
+  },
+  {
+    "name_en": "Neem Coated Urea Scheme",
+    "name_hi": "नीम लेपित यूरिया योजना",
+    "ministry": "Ministry of Chemicals & Fertilizers",
+    "description_en": "All urea produced and imported is mandatorily neem coated. Reduces urea consumption, improves soil health, and enhances crop yield. Available at controlled price of Rs. 242 per 45 kg bag.",
+    "description_hi": "सभी उत्पादित और आयातित यूरिया अनिवार्य रूप से नीम लेपित है।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "Subsidized urea at Rs. 242 per 45 kg bag",
+    "apply_url": "https://fert.nic.in/",
+    "documents_required": ["aadhaar"],
+    "how_to_apply": "Purchase from authorized fertilizer dealers with Aadhaar verification through PoS machines.",
+    "is_active": true,
+    "source_url": "https://fert.nic.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.01", "is_mandatory": true}
+    ],
+    "deadlines": []
+  },
+  {
+    "name_en": "Pradhan Mantri Annadata Aay Sanrakshan Abhiyan (PM-AASHA)",
+    "name_hi": "प्रधानमंत्री अन्नदाता आय संरक्षण अभियान",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Umbrella scheme for MSP-based procurement. Components: Price Support Scheme (PSS), Price Deficiency Payment Scheme (PDPS), and Private Procurement & Stockist Scheme (PPSS).",
+    "description_hi": "MSP आधारित खरीद के लिए छत्र योजना।",
+    "benefit_type": "cash",
+    "benefit_amount": "MSP-based payment difference",
+    "apply_url": "https://farmer.gov.in/",
+    "documents_required": ["aadhaar", "land_proof", "bank_passbook"],
+    "how_to_apply": "Register at nearest procurement center during procurement season.",
+    "is_active": true,
+    "source_url": "https://farmer.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.01", "is_mandatory": true},
+      {"rule_type": "crop", "rule_value": "wheat", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "rice", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "mustard", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "groundnut", "is_mandatory": false}
+    ],
+    "deadlines": [
+      {"season": "rabi", "year": 2026, "open_date": "2026-03-01", "close_date": "2026-05-31"},
+      {"season": "kharif", "year": 2026, "open_date": "2026-09-01", "close_date": "2026-12-31"}
+    ]
+  },
+  {
+    "name_en": "National Mission on Oilseeds and Oil Palm (NMOOP)",
+    "name_hi": "तिलहन और ऑयल पाम पर राष्ट्रीय मिशन",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Increases production and productivity of oilseed crops and oil palm. Provides subsidies on seeds, mini kits, demonstrations, and processing equipment.",
+    "description_hi": "तिलहन फसलों और ऑयल पाम के उत्पादन और उत्पादकता में वृद्धि करता है।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "50% subsidy on seeds, 75% on oil palm planting material",
+    "apply_url": "https://nfsm.gov.in/",
+    "documents_required": ["aadhaar", "land_proof"],
+    "how_to_apply": "Apply through Block Agriculture Officer or Krishi Vigyan Kendra.",
+    "is_active": true,
+    "source_url": "https://nfsm.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "crop", "rule_value": "groundnut", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "mustard", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "soybean", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "sunflower", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "sesame", "is_mandatory": false},
+      {"rule_type": "land_min", "rule_value": "0.5", "is_mandatory": true}
+    ],
+    "deadlines": [
+      {"season": "kharif", "year": 2026, "open_date": "2026-04-01", "close_date": "2026-08-31"}
+    ]
+  },
+  {
+    "name_en": "National Mission for Sustainable Agriculture - Rainfed Area Development (RAD)",
+    "name_hi": "टिकाऊ कृषि के लिए राष्ट्रीय मिशन - वर्षा सिंचित क्षेत्र विकास",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Focuses on integrated farming system for enhancing productivity and minimizing risks in rainfed areas. Promotes multi-cropping, livestock, agro-forestry, etc.",
+    "description_hi": "वर्षा सिंचित क्षेत्रों में उत्पादकता बढ़ाने और जोखिम कम करने के लिए एकीकृत कृषि प्रणाली पर केंद्रित है।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "Up to Rs. 12,500 per hectare for IFS",
+    "apply_url": "https://nmsa.dac.gov.in/",
+    "documents_required": ["aadhaar", "land_proof"],
+    "how_to_apply": "Apply through District Agriculture Officer.",
+    "is_active": true,
+    "source_url": "https://nmsa.dac.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.5", "is_mandatory": true},
+      {"rule_type": "irrigation", "rule_value": "rainfed", "is_mandatory": true}
+    ],
+    "deadlines": [
+      {"season": "kharif", "year": 2026, "open_date": "2026-04-01", "close_date": "2026-09-30"}
+    ]
+  },
+  {
+    "name_en": "Dairy Entrepreneurship Development Scheme (DEDS)",
+    "name_hi": "डेयरी उद्यमिता विकास योजना",
+    "ministry": "Ministry of Fisheries, Animal Husbandry & Dairying",
+    "description_en": "Generates self-employment opportunities in dairy sector. Provides back-ended capital subsidy for establishment of small dairy farms, purchase of milking machines, dairy processing equipment, etc.",
+    "description_hi": "डेयरी क्षेत्र में स्वरोजगार के अवसर उत्पन्न करता है।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "25-33% capital subsidy (up to Rs. 7 lakh for SC/ST)",
+    "apply_url": "https://dahd.nic.in/",
+    "documents_required": ["aadhaar", "land_proof", "bank_passbook"],
+    "how_to_apply": "Apply through NABARD-financed banks.",
+    "is_active": true,
+    "source_url": "https://dahd.nic.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.01", "is_mandatory": true}
+    ],
+    "deadlines": []
+  },
+  {
+    "name_en": "Gramin Bhandaran Yojana (Rural Godown Scheme)",
+    "name_hi": "ग्रामीण भंडारण योजना",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Creates scientific storage capacity with allied facilities in rural areas to prevent post-harvest losses. Subsidy for construction of godowns from 100 to 30,000 MT capacity.",
+    "description_hi": "फसल कटाई के बाद के नुकसान को रोकने के लिए ग्रामीण क्षेत्रों में सहायक सुविधाओं के साथ वैज्ञानिक भंडारण क्षमता बनाता है।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "25% of project cost (33.33% for SC/ST, NE, hilly areas)",
+    "apply_url": "https://agmarknet.gov.in/",
+    "documents_required": ["aadhaar", "land_proof", "bank_passbook"],
+    "how_to_apply": "Apply through commercial banks to NABARD for subsidy.",
+    "is_active": true,
+    "source_url": "https://agmarknet.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "2", "is_mandatory": true},
+      {"rule_type": "ownership", "rule_value": "owned", "is_mandatory": true}
+    ],
+    "deadlines": []
+  },
+  {
+    "name_en": "Mission for Integrated Development of Horticulture (MIDH)",
+    "name_hi": "बागवानी के एकीकृत विकास के लिए मिशन",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Holistic growth of horticulture sector covering fruits, vegetables, root & tuber crops, mushrooms, spices, flowers, aromatic plants, coconut, cashew, and cocoa.",
+    "description_hi": "फल, सब्जियां, कंद फसलें, मशरूम, मसाले, फूल, सुगंधित पौधे, नारियल, काजू आदि को कवर करने वाला बागवानी क्षेत्र का समग्र विकास।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "40-75% subsidy based on activity and farmer category",
+    "apply_url": "https://midh.gov.in/",
+    "documents_required": ["aadhaar", "land_proof", "bank_passbook"],
+    "how_to_apply": "Apply through state horticulture department. Online applications through NHB portal.",
+    "is_active": true,
+    "source_url": "https://midh.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.5", "is_mandatory": true},
+      {"rule_type": "crop", "rule_value": "mango", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "banana", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "coconut", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "turmeric", "is_mandatory": false},
+      {"rule_type": "crop", "rule_value": "ginger", "is_mandatory": false}
+    ],
+    "deadlines": [
+      {"season": "kharif", "year": 2026, "open_date": "2026-03-01", "close_date": "2026-09-30"}
+    ]
+  },
+  {
+    "name_en": "Kisan Suvidha App / Digital Agriculture Mission",
+    "name_hi": "किसान सुविधा / डिजिटल कृषि मिशन",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Digital platform providing farmers with information on weather, market prices, seeds, fertilizers, pesticides, agricultural machinery, dealers, and expert advisory. Part of Digital India initiative.",
+    "description_hi": "मौसम, बाजार मूल्य, बीज, उर्वरक, कीटनाशक, कृषि मशीनरी, डीलरों और विशेषज्ञ सलाह पर किसानों को जानकारी प्रदान करने वाला डिजिटल प्लेटफॉर्म।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "Free access to agricultural advisories",
+    "apply_url": "https://mkisan.gov.in/",
+    "documents_required": ["aadhaar"],
+    "how_to_apply": "Download Kisan Suvidha app or register at mkisan.gov.in.",
+    "is_active": true,
+    "source_url": "https://mkisan.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.01", "is_mandatory": true}
+    ],
+    "deadlines": []
+  },
+  {
+    "name_en": "National Beekeeping & Honey Mission (NBHM)",
+    "name_hi": "राष्ट्रीय मधुमक्खी पालन और शहद मिशन",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Promotes scientific beekeeping as supplement to farm income. Provides bee colonies, hives, equipment, and training. Helps in crop pollination and honey production.",
+    "description_hi": "कृषि आय के पूरक के रूप में वैज्ञानिक मधुमक्खी पालन को बढ़ावा देता है।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "Up to 50% subsidy on bee colonies, hives, and equipment",
+    "apply_url": "https://nbb.gov.in/",
+    "documents_required": ["aadhaar", "bank_passbook"],
+    "how_to_apply": "Apply through state agriculture department or National Bee Board.",
+    "is_active": true,
+    "source_url": "https://nbb.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.5", "is_mandatory": true}
+    ],
+    "deadlines": [
+      {"season": "kharif", "year": 2026, "open_date": "2026-01-01", "close_date": "2026-12-31"}
+    ]
+  },
+  {
+    "name_en": "Vivad Se Vishwas (Agriculture Land Dispute Resolution)",
+    "name_hi": "विवाद से विश्वास",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "description_en": "Helps resolve land disputes for farmers to access credit and government schemes. Fast-track resolution through revenue courts and digitization of land records.",
+    "description_hi": "किसानों को क्रेडिट और सरकारी योजनाओं तक पहुंच के लिए भूमि विवादों को हल करने में मदद करता है।",
+    "benefit_type": "subsidy",
+    "benefit_amount": "Free dispute resolution services",
+    "apply_url": "https://dilrmp.gov.in/",
+    "documents_required": ["aadhaar", "land_proof"],
+    "how_to_apply": "Apply through District Revenue Office or Common Service Centers.",
+    "is_active": true,
+    "source_url": "https://dilrmp.gov.in/",
+    "eligibility_rules": [
+      {"rule_type": "land_min", "rule_value": "0.01", "is_mandatory": true}
+    ],
+    "deadlines": []
+  }
+]
